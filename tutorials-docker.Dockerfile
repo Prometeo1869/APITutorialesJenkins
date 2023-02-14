@@ -1,7 +1,7 @@
-FROM openjdk:19
+FROM openjdk:11
 #Indica la imagen base sobre la que se construirá la
 #aplicación dentro del contenedor.
-COPY target/tutoriales-0.0.1-SNAPSHOT.jar /tutorialsapp2.jar
+COPY tutoriales-0.0.1-SNAPSHOT.jar /tutorialsapp2.jar
 #Como su nombre indica, copia el .jar que generamos
 #anteriormente en docker.
 # Esta instrucción nos provee valores por defecto a nuestro contenedor,
